@@ -26,7 +26,6 @@ docker run -d -p 3000:8080 \
   
   import openai
 
-  # Connect to your local Ollama instance
   client = openai.Client(
       base_url="http://localhost:11434/v1",
       api_key="ollama"  # Authentication-free private access
